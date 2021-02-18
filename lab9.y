@@ -598,5 +598,5 @@ int main ( int argc, char* argv[] )
     //Display();
     //ASTprint(0,program);
 
-    printf("Done Compiling!");
+    printf("\nDone Compiling!\n\n");
 }
