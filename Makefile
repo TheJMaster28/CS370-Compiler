@@ -9,4 +9,7 @@ all:
 cleanup:
 	rm lex.yy.c y.output y.tab.c y.tab.h
 run:
-	./lab9	
+	./lab9 
+run-with-file:
+	./lab9 < $(INPUT)
+

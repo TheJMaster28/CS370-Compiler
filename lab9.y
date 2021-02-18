@@ -560,6 +560,7 @@ int main ( int argc, char* argv[] )
     for ( i = 0; i < argc; i++ ) {
         if ( strcmp(argv[i],"-d") == 0 ) {
             debugEMIT = 1;
+	    debugI = 1;
         }
         if ( strcmp(argv[i],"-o") == 0 ) { 
             if ( argv[i+1] == NULL ) {
